@@ -7,7 +7,7 @@ site:
     templates_dirs:
         - _content/includes
         - _content/layouts
-    base_url: http://127.0.0.1/~dendev/Vrac/piecrust/LocaFram/_content/theme/
+    base_theme_url: http://127.0.0.1/~dendev/Vrac/piecrust/LocaFram/_content/theme/
 
 blog:
     post_url: blog/%year%/%month%/%day%/%slug%
@@ -18,3 +18,4 @@ blog:
 baker:
     skip_patterns:
         - vendor/*
+        - scss/*
