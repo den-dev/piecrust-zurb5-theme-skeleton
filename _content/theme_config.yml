@@ -1,0 +1,19 @@
+site:
+    title: My Octopress Blog
+    subtitle: A blogging framework for hackers.
+    author: Your Name
+    date_format: 'F jS Y'
+    pretty_urls: true
+    templates_dirs:
+        - _content/includes
+        - _content/layouts
+
+blog:
+    post_url: blog/%year%/%month%/%day%/%slug%
+    tag_url: blog/categories/%tag%
+    category_url: blog/categories/%category%
+    posts_per_page: 10
+
+baker:
+    skip_patterns:
+        - vendor/*
